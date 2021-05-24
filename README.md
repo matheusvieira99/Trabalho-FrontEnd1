@@ -8,4 +8,3 @@
 <h4>Alec do Canto</h4>
 <h4>Frederico Lopes</h4>
 <img src="https://i.ibb.co/FW6zh6F/trabalho-frontend.png" alt="Amostra">
-<h4>Professor Weberson, desculpe, como sou iniciante, acabei criando uma branch e coloquei só um arquivo .rar com uma pasta dentro com o trabalho, hoje acabei dando conta de que estava errado e fiz essa branch da maneira correta. Poderia considerar, por gentileza?</h4>
