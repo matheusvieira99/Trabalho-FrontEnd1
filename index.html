@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>Cadastro</title>
+</head>
+<body>
+    <div class="layout">
+
+        <div class="azul">
+            <h1>Adicionar usuário</h1>
+        </div>
+
+        <div class="body">
+
+            <div class="nome-email">
+                <div class="nome">
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" placeholder="Nome">
+                </div>
+
+                <div class="email">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Email">
+                </div>
+
+            </div>
+
+            <div class="senha-sexo-tipo-dev">
+                <div class="senha">
+                    <label for="password">Senha</label><input type="password" id="password" placeholder="Senha">
+                </div>
+
+                <div class="sexo">
+                    <label for="sexo">Sexo</label>
+                    <select id="sexo">
+                        <option value="masculino">Masculino</option>
+                        <option value="meminino">Feminino</option>
+                    </select>
+                </div>
+
+                <div class="tipo-dev">
+                    <label for="tipo-dev">Tipo de Dev</label>
+                    <select id="tipo-dev">
+                        <option value="front-end">Front-End</option>
+                        <option value="back-end">Back-End</option>
+                        <option value="full-stack">Full-Stack</option>
+                    </select>
+                </div>
+            </div>
+
+
+
+            <div class="observacao">
+                <label for="observacao">Observação</label><textarea type="text" id="observacao"></textarea>
+            </div>
+
+
+            <div class="div-botoes">
+                <div class="alignbutton"> 
+                   <button id="salvar">Salvar</button>
+                   <button id="cancelar">Cancelar</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
